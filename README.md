@@ -35,3 +35,8 @@ This is a simple Rock Paper Scissors game built as a hands-on exercise to learn 
 
 **This project is intended for educational purposes. Explore the code, experiment with changes, and have fun learning!**
 
+## Version History
+
+- The initial version of [script.js](cci:7://file:///c:/Programmering/practice/testing/script.js:0:0-0:0) only accounted for the user's selection, with no computer-generated choice.
+- In later commits, logic was added for the computer to randomly select Rock, Paper, or Scissors, making the game interactive and more realistic.
+- You can explore the commit history to see how the logic evolved as part of the learning process.
