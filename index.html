@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Main container to center everything vertically and horizontally -->
+    <div class="main-container">
+        <!-- App title -->
+        <h1 class="app-title">Rock Paper Scissors</h1>
+        
+        <!-- Button row: each button is a circle with emoji and label stacked -->
+        <div class="choices">
+            <!-- Each button uses a span for emoji and a span for label -->
+            <button class="choice-btn" onclick="playRock()">
+                <span class="emoji" aria-label="Rock">✊</span>
+                <span class="label">Rock</span>
+            </button>
+            <button class="choice-btn" onclick="playPaper()">
+                <span class="emoji" aria-label="Paper">🫳</span>
+                <span class="label">Paper</span>
+            </button>
+            <button class="choice-btn" onclick="playScissors()">
+                <span class="emoji" aria-label="Scissors">✌️</span>
+                <span class="label">Scissors</span>
+            </button>
+        </div>
+
+        <!-- Result display area -->
+        <div class="results">
+            <div class="result-message" id="resultContainer">Make your move!</div>
+            <div class="selections">
+                <div>
+                    <div class="selection-label">You</div>
+                    <div class="selection-emoji" id="userSelectionContainer"></div>
+                </div>
+                <div>
+                    <div class="selection-label">Computer</div>
+                    <div class="selection-emoji" id="computerSelectionContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
