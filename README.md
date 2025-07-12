@@ -1,4 +1,4 @@
-# supersimple-Rock Paper Scissors — Learning Project
+# Super simple Rock Paper Scissors — Learning Project
 
 ## Overview
 This is a simple Rock Paper Scissors game built as a hands-on exercise to learn and practice the basics of web development. The main goal is to understand how HTML, CSS, and JavaScript work together to create interactive web pages.
